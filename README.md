@@ -1,2 +1,2 @@
 # 90daysDSA
-dsa roadmap by nishant chahar
+dsa roadmap by Nishant Chahar
