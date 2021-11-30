@@ -1,0 +1,7 @@
+Got to know big-oh is the worst case and
+there is omega and theta
+omega is best case.
+theta is the average time taken or average case
+and got to know about little oh,theta,omega.
+Got to know Space complexity:- It is the input space we require + the auxilary space needed by the algorithm to run perfectly.
+looked more examples of nested loops to know how to calculate the time complexity of the code written.
