@@ -1,0 +1,59 @@
+Started With RECURSIONS
+watched Utkarsh Gupta's video on recursion and i now have full faith in him as much as i have in my recursion leap of faith,he is awesome.
+Got to know about base case/stop case.
+and, TRUST YOUR FUNCTION.
+some problems i did.
+
+Q-sum of n numbers.
+
+#include<bits/stdc++.h>
+using namespace std;
+void pattern_print(int n){
+  if(n==0)return;
+  
+  for(int i=1;i<=n;i++){
+    cout<<i<<" ";
+  }
+  cout<<"\n";
+  pattern_print(n-1);
+}
+int main(){
+  pattern_print(5);
+  return 0;
+}
+
+Q-Sum of digits:
+
+#include<bits/stdc++.h>
+using namespace std;
+int sum_digits(int n){
+  if(n==0){
+    return 0;
+  }
+  int lastdigit=n%10;
+  int remaining=n/10;
+  
+  return (sum_digits(remaining)+lastdigit);
+}
+int main(){
+  cout<<sum_digits(1242)<<"\n";
+}
+
+Q-Print triangle patterns both ways ,
+
+
+#include<bits/stdc++.h>
+using namespace std;
+void pattern_print(int n){
+  if(n==0)return;
+  
+  for(int i=1;i<=n;i++){
+    cout<<i<<" ";
+  }
+  cout<<"\n";
+  pattern_print(n-1);
+}
+int main(){
+  pattern_print(5);
+  return 0;
+}
